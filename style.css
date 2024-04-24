@@ -1,0 +1,35 @@
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+    
+   .carding{
+    display: flex;
+    align-items: center;
+   gap: 50px;
+   padding: 15px 10px;
+   border-radius: 15px;
+   margin: 20px 0;
+   background-color: aqua;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+   width: 510px;
+   justify-content: space-between;
+   }
+   .carding:nth-child(even){
+      background-color: blue;
+      color: white;
+   }
+   .carding:nth-child(prime){
+      background-color: rgb(176, 207, 0);
+      color: white;
+   }
+   @media only screen and (max-width: 750px) {
+      .carding{
+         width: 100%;
+         padding: 10px;
+      }
+   }

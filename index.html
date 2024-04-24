@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bootstrap practical</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+<link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- style. css -->
+
+    <link
+      rel="shortcut icon"
+      href="./icon/Rectangle 923.png"
+      type="image/x-icon"
+    />
+    <!-- link for icon -->
+  </head>
+
+  <body>
+    <main>
+      <div
+        class="shadow p-3 my-5 rounded d-flex justify-content-center align-items-center flex-column m-auto container-md-w-50"
+      >
+        <h1>my todo list</h1>
+        <div class="d-flex align-items-center gap-3 lead text-muted">
+          <p>lord dansco</p>
+          <p>10.04.2021</p>
+        </div>
+        <form onsubmit="handleSubmit(event)" class="d-flex align-items-center  fs-1">
+          <input type="text" id="input" class="form-control  tt fs-2 border-style-unset"  data-bs-toggle="tooltip" data-bs-placement="left" title="add todo"/>
+          <button type="submit" id="btn" class="btn btn-primary fs-2">addTodo</button>
+        </form>
+        <div class="" id="todoTask"></div>
+      </div>
+    </main>
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
